@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #e0b78c;
+        }
+        p{
+            font-size: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+ <table>
+    <tr>
+        <th>Name:</th>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td><input type="email"></td>
+    </tr>
+    <tr>
+        <th>Password:</th>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td><h4>Approval Required:</h4> <p>Click on the button or text to check/uncheck.</p></td>
+        <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Do you approve?</label></td>
+    </tr>
+    <tr>
+        <td><h4>Pick Your Favourite:</h4><p>Click on the button or text to select.</p></td>
+        <td>
+            <input type="radio" id="optionA" name="options">
+    <label for="optionA">Choice A</label>
+    <br>
+    <input type="radio" id="optionB" name="options">
+    <label for="optionB">Choice B</label>
+    <br>
+    <input type="radio" id="optionC" name="options">
+    <label for="optionC">Choice C</label>
+    </tr>
+    <tr>
+        <th>Popup Menu:</th>
+            <td><input type="number" id="quantity" name="quantity" value="Texas -- TX" step="1" placeholder="Texas -- TX"> </td>
+    </tr>
+    <td><h4>List</h4> <p>Setup Options:</p> 
+    <ul>
+        <li>Number of rows to display</li>
+        <li>Allow Multi-select</li>
+    </ul></td>
+        <td> <textarea name="" id="" cols="30" rows="5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur cumque harum error illo voluptate sequi similique sapiente, alias enim nobis, quia id, nihil eligendi tempore.</textarea> </td>
+    </tr>
+    <tr>
+        <th>Field Ignored by KM</th>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <th>Text Area</th>
+        <td> <textarea name="" id="" cols="30" rows="5"></textarea> </td>
+    </tr>
+ </table> <br>
+ <input type="button" value="Save">
+ <input type="button" value="Cancel">
+ <input type="button" value="Resize">
+
+</body>
+</html>
